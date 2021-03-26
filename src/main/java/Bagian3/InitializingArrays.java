@@ -12,7 +12,16 @@ package Bagian3;
 public class InitializingArrays {
     public static void main(String[]args)
     {
+        //materi yang 1
         int tmp[ ] = {5, 8, 9, 3};
         System.out.println(tmp[2]);
+        
+        //materi array yang lain
+        double sum = 0.0;
+        for (int x = 0; x < 4; x++){
+            
+            sum += myArray[x];
+        }
+        System.out.println(sum);
     }
 }
