@@ -12,6 +12,7 @@ package Bagian3;
 public class InitializingArrays {
     public static void main(String[]args)
     {
+	//memperbaiki error materi inisialisasi array
         //materi yang 1
         int tmp[ ] = {5, 8, 9, 3};
         System.out.println(tmp[2]);
