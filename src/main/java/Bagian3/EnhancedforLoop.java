@@ -13,12 +13,18 @@ public class EnhancedforLoop {
 
     public static void main(String[]args)
     {
+        //array multi dimesi pertama
 
         int total = 0;
 
         for(int x : arr ) {
 
         total += x;
+
+        //array multidimensi kedua
+        int array[ ][ ] =  {{3, 5, 8}, {7, 54, 1, 12, 4}}; 
+        
+        System.out.println(array[0][2]);
 
     }
     }
